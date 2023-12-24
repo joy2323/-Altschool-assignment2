@@ -8,6 +8,88 @@
 </head>
 <body>
     
+    <section class="main-section">
+        <header>
+            <nav id="nav-container">
+                <img src="img/Logo.png" alt="logo">
+                <section class="header-text">
+                    <h1> For Individuals </h1>
+                    <p class="desktop-text">
+                        Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.
+                    </p>
+                    <p class="mobile-text">
+                        Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere.
+                    </p>
+                </section>
+            </nav>
+        </header>
+
+        <main id="main-container">
+            <form class="form-container" action="#">
+                <section class="first-name">
+                    <label for="first-name">First Name</label>
+                    <input type="text" placeholder="Enter first name" required>
+                </section>
+
+                <section class="last-name">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" placeholder="Enter last name" required>
+                </section>
+
+                <section class="gender">
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender" required>
+                        <option value="" disabled selected hidden>Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </section>
+
+                <section class="date-of-birth">
+                    <label for="date-of-birth">Date of birth</label>
+                    <input id type = "date" value = "select here" required>
+                </section>
+
+                <section class="weight">
+                    <label for="weight">Weight (KG)</label>
+                    <input type="number" placeholder="Enter Weight" required>
+                </section>
+
+                <section class="height">
+                    <label for="height">Height (CM)</label>
+                    <input type="number" placeholder="Enter Height" required>
+                </section>
+
+                <section class="activity-level">
+                    <label for="activity-level">Activity level</label>
+                    <select name="activity-level" id="activity-level" required>
+                        <option value="" disabled selected hidden>Select here</option>
+                        <option value="active">Active</option>
+                        <option value="very-active">Very Active</option>
+                        <option value="super-active">Super Active</option>
+                    </select>
+                </section>
+
+                <section class="pass">
+                    <label for="password"> Password </label>
+                    <div class="pass-input">
+                        <input type="password" required>
+                        <img src="img/view.png" alt="eye icon">
+                    </div>
+                </section>
+
+                <section class="submit">
+                    <input type="submit" value="Register" formnovalidate>
+                </section>
+            </form>
+            <p class="terms">
+                By clicking Register, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span>
+            </p>
+        </main>
+    </section>
+    <footer>
+        <p>&copy; Joy Joel</p>
+    </footer>
     
 </body>
 </html>
